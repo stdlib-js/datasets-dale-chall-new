@@ -43,7 +43,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/cli": "^0.0.x",
+    "@stdlib/cli-ctor": "^0.0.x",
     "@stdlib/fs-read-file": "^0.0.x",
     "@stdlib/fs-read-json": "^0.0.x",
     "@stdlib/streams-node-stdout": "^0.0.x"
