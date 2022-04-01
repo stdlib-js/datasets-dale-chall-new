@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/datasets-dale-chall-new",
+  "version": "0.0.0",
+  "description": "A list of familiar American-English words.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-dale-chall-new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "words",
+    "familiar",
+    "familiarity",
+    "readability",
+    "readable",
+    "comprehension",
+    "reading",
+    "american",
+    "dale",
+    "chall",
+    "english",
+    "en"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
