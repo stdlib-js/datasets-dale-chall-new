@@ -45,7 +45,8 @@
     "@stdlib/cli-ctor": "^0.1.1",
     "@stdlib/fs-read-file": "^0.1.1",
     "@stdlib/fs-read-json": "^0.1.1",
-    "@stdlib/streams-node-stdout": "^0.1.1"
+    "@stdlib/streams-node-stdout": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.1.0",
