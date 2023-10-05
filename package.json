@@ -48,12 +48,12 @@
     "@stdlib/streams-node-stdout": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-browser": "^0.1.0",
-    "@stdlib/assert-is-string-array": "^0.1.0",
-    "@stdlib/assert-is-windows": "^0.1.0",
+    "@stdlib/assert-is-browser": "^0.1.1",
+    "@stdlib/assert-is-string-array": "^0.1.1",
+    "@stdlib/assert-is-windows": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/math-base-special-floor": "^0.1.0",
-    "@stdlib/process-exec-path": "^0.1.0",
+    "@stdlib/process-exec-path": "^0.1.1",
     "@stdlib/random-base-randu": "^0.1.0",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
