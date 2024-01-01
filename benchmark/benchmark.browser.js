@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isStringArray = require( '@stdlib/assert-is-string-array' ).primitives;
 var pkg = require( './../package.json' ).name;
 var words = require( './../lib/browser.js' );
