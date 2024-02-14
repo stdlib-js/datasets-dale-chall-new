@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@deno/mod.js';
+import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@v0.2.0-deno/mod.js';
 ```
 
 #### words()
@@ -78,7 +78,7 @@ var data = words();
 ```javascript
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@deno/mod.js';
+import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@v0.2.0-deno/mod.js';
 
 var data = words();
 var len = data.length;
