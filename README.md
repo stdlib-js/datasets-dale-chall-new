@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-dale-chall-new/tags). For example,
+
+```javascript
 import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@v0.2.3-esm/index.mjs';
 ```
 
@@ -83,7 +88,7 @@ var data = words();
 
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@v0.2.3-esm/index.mjs';
+import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@esm/index.mjs';
 
 var data = words();
 var len = data.length;
