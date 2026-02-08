@@ -35,14 +35,33 @@ limitations under the License.
 
 > A [list][@chall:1995a] of familiar American-English words.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/datasets-dale-chall-new
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@esm/index.mjs';
+var words = require( '@stdlib/datasets-dale-chall-new' );
 ```
 
 #### words()
@@ -75,15 +94,10 @@ var data = words();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@esm/index.mjs';
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import words from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-dale-chall-new@esm/index.mjs';
+```javascript
+var floor = require( '@stdlib/math-base-special-floor' );
+var randu = require( '@stdlib/random-base-randu' );
+var words = require( '@stdlib/datasets-dale-chall-new' );
 
 var data = words();
 var len = data.length;
@@ -95,17 +109,70 @@ for ( i = 0; i < 100; i++ ) {
     idx = floor( randu()*len );
     console.log( data[ idx ] );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/datasets-dale-chall-new-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: dale-chall-new [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ dale-chall-new
+a
+able
+aboard
+about
+above
+...
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 * * *
 
@@ -144,7 +211,7 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -169,8 +236,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-dale-chall-new.svg
 [npm-url]: https://npmjs.org/package/@stdlib/datasets-dale-chall-new
 
-[test-image]: https://github.com/stdlib-js/datasets-dale-chall-new/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/datasets-dale-chall-new/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/datasets-dale-chall-new/actions/workflows/test.yml/badge.svg?branch=v0.2.3
+[test-url]: https://github.com/stdlib-js/datasets-dale-chall-new/actions/workflows/test.yml?query=branch:v0.2.3
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-dale-chall-new/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-dale-chall-new?branch=main
